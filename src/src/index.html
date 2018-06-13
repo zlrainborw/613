@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src='./js/libs/flexible.js'></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class='warp'>
+        主页面
+    </div>
+    <script src='./js/libs/require.js'></script>
+    <script>
+        require(['./js/main.js'], function () {
+            require(['index'])
+        })
+    </script>
+</body>
+
+</html>
